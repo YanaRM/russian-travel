@@ -1,0 +1,6 @@
+.header__lang-link_disabled {
+  margin: 0;
+  text-decoration: none;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}

@@ -1,0 +1,5 @@
+.header__lang-link_focused {
+  margin: 0 18px 0 auto;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
