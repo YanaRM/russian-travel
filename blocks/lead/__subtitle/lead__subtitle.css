@@ -2,10 +2,9 @@
   margin: 0 auto 64px auto;
   width: 640px;
   min-height: 72px;
-  font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 36px;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -14,5 +13,7 @@
     width: 288px;
     min-height: 40px;
     margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }

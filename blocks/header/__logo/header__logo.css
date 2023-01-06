@@ -1,9 +1,7 @@
 .header__logo {
   width: 176px;
   height: 52px;
-  margin-left: 0;
-  grid-column-start: 1;
-  grid-column-end: 2;
+  margin: 0;
 }
 
 @media screen and (max-width: 320px) {

@@ -1,6 +1,6 @@
 .place {
-  width: 100%;
-  margin-bottom: 80px;
+  min-width: 100%;
+  margin: 0 0 80px 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, min-content);
@@ -10,7 +10,7 @@
 }
 
 .place:last-of-type {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 1280px) {
@@ -28,8 +28,7 @@
 
 @media screen and (max-width: 320px) {
   .place {
-    width: 100%;
-    margin: 0 0 50px 0;
+    margin-bottom: 50px;
     grid-template-columns: 100%;
     row-gap: 32px;
   }

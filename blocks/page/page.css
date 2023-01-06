@@ -1,5 +1,5 @@
 .page {
-  min-width: 1024px;
+  max-width: 2560px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,22 +11,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
-
-@media screen and (min-width: 1280px) {
-  .page {
-    min-width: 1280px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page {
-    max-width: 320px;
-  }
 }

@@ -1,5 +1,5 @@
 .footer {
-  width: calc(100% - 48px*2);
+  min-width: calc(100% - 48px*2);
   margin: 92px auto 24px auto;
   display: flex;
   flex-direction: row;
@@ -15,14 +15,15 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: calc(100% - 24px*2);
-    margin: 88px auto 24 auto;
+    min-width: calc(100% - 24px*2);
+    margin-top: 88px;
+    margin-bottom: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer {
-    width: calc(100% - (16px + 118px));
+    min-width: calc(100% - (16px + 118px));
     margin: 64px auto 24px 16px;
     flex-direction: column;
     align-items: start;
