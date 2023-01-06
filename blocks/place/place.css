@@ -19,14 +19,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place {
     margin-bottom: 75px;
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place {
     margin-bottom: 50px;
     grid-template-columns: 100%;
